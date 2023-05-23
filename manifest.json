@@ -1,0 +1,12 @@
+{
+  "name": "Moodle最終アクセスソート",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Moodleで常に「最終アクセス」にソートする",
+  "content_scripts": [
+    {
+      "matches": ["https://moodle.s.kyushu-u.ac.jp/my/"],
+      "js": ["background.js"]
+    }
+  ]
+}
